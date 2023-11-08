@@ -10,7 +10,6 @@ public class Task07 {
 
         int mask = 1 << i; // создаем маску для получения i-го бита
         int bit = (N & mask)!= 0? 1 : 0; // получаем значение i-го бита
-
         System.out.println(Integer.toBinaryString(bit)); // выводим результат в двоичном виде
 
     }
